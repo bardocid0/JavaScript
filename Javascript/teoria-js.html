@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria JavaScript</title>
+</head>
+<body>
+    <h1>Teoria de JavaScript</h1>
+    <!--O nome da função no onclick precisa ser igual a da função JS-->
+    <button onclick="Botao1()">Botão</button>
+    <button onclick="BotaoCorFundo()">Alterar a cor do fundo</button>
+    <button onclick="BotaoNome()">Qual é o seu nome</button>
+</body>
+<script>
+    /*
+     comentários em
+     múltiplas linha
+    */
+    //comentário em linha única
+
+    //O alert é utilizado para exibir uma mensagem em pop-up
+    //alert("Olá Mundo!!!")
+
+    //No Console conseguimos visualizar informações sem exibir na página
+    console.log ("Olá Mundo, estou utilizando o console")
+
+    //Tipo de exibição de mensagens no console
+    console.error ("Esta é uma mensagem de erro")
+    console.warn ("Esta é uma mensagem de alerta")
+    console.info ("Esta é uma mensagem de informação")
+    //Criando uma função chamada quando clicamos no botão
+    //O nome da função tem que ser igual ao do evento onclick
+    function Botao1(){
+        alert("Você clicou no botão")
+    }
+    function BotaoCorFundo(){
+        document.body.style.backgroundColor = "green"
+    }
+    function BotaoNome(){
+        prompt("Qual é o seu nome")
+    }
+</script>
+</html>

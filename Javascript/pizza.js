@@ -1,0 +1,3 @@
+while (temFatia == true) {
+    comerFatia()
+}

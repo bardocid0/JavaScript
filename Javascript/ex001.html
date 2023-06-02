@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            width: 90px;
+            height: 60px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício 001</h1>
+    <button onclick="Botão1()">Botão 1</button>
+    <button onclick="Botão2()">Botão 2</button>
+    <button onclick="Botão3()">Botão 3</button>
+    <h1>Alterando a cor de fundo do site</h1>
+    <button onclick="BotãoVerde()">Verde</button>
+    <button onclick="BotãoVermelho()">Vermelho</button>
+    <button onclick="BotãoAzul()">Azul</button>
+</body>
+<script>
+    function Botão1(){
+        alert("Você clicou no botão 1")
+    }
+    function Botão2(){
+        alert("Você clicou no botão 2")
+    }
+    function Botão3(){
+        alert("Você clicou no botão 3")
+    }
+    function BotãoVerde(){
+        document.body.style.backgroundColor = "green"
+    }
+    function BotãoVermelho(){
+        document.body.style.backgroundColor = "red"
+    }
+    function BotãoAzul(){
+        document.body.style.backgroundColor = "blue"
+    }
+</script>
+</html>
